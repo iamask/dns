@@ -13,6 +13,7 @@ export default {
 
 
     console.log(dnsdata);
+    console.log(dnsdata);
 
     // Wrap the JSON data in a Response object
     return new Response(JSON.stringify(dnsdata), {
