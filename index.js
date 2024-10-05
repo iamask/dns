@@ -11,7 +11,7 @@ export default {
 
     const dnsdata = await dns.json();
 
-    console.log(dnsdata);
+
     console.log(dnsdata);
 
     // Wrap the JSON data in a Response object
