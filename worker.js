@@ -1,6 +1,6 @@
 export default {
   async fetch(request, env, ctx) {
-    const domain = "www.akamai.com";
+    const domain = "www.cloudflare.com";
 
     const dnsQueryUrl = `https://cloudflare-dns.com/dns-query?name=${domain}&type=A`;
 
